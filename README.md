@@ -1,10 +1,12 @@
 # ToDo-app
 
-## Deployed link:[todo-netlify-link]()
+## Deployed link: [todo-netlify-link](https://boodah-todo.netlify.app/)
 
 
 #### By: Abdalrhman albdahat
 
+### general UML
+![uml](./src/todo.PNG)
 
 ## in todo-app you can:
 - add a new to do item 
