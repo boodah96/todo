@@ -1,9 +1,10 @@
 import axios from 'axios';
 import { useContext } from 'react';
 import { PaginationContext } from './../context/pagination';
+import { LoginContext } from './../auth/context';
 const useAjax = (url) => {
     const paginationContext = useContext(PaginationContext);
-
+    const loginContext = useContext(LoginContext);
     let config = {
         headers: {
             mode: 'cors',
